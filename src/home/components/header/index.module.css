@@ -1,0 +1,128 @@
+.headWrap{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 4px solid #E4E4E4;
+      background: white;
+      width: 100%;
+      position: fixed;
+      z-index: 30;
+      padding: 30px 68px;
+}
+ .cart{
+            width: 28px;
+      }
+.logo{
+      width: 124px;
+}
+
+.dropDownContainer{
+      border: 4px solid #E4E4E4;
+      padding: 22px;
+}
+
+.dropDownItem{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+     padding-bottom: 24px;
+     border-bottom: 1px solid #C2C2C2;
+}
+.dropName{
+      color: black;
+      font-size: 20px;
+      line-height: 21px;
+      font-weight: 700;
+      font-family: 'Archivo', sans-serif;
+}
+.dropAmount{
+      color: #E4E4E4;
+      font-size: 27px;
+      line-height: 31px;
+      font-weight: 300;
+      font-family: 'Archivo', sans-serif;
+}
+.dropImage{
+      height: 86px;
+      width: 149px;
+      margin-left: 21px;
+}
+.clearBtn{
+      border:1px solid black;
+      text-transform: uppercase;
+      background-color: white;
+      color: black;
+      font-size: 20px;
+      line-height: 21px;
+      font-weight: 300;
+      font-family: 'Archivo', sans-serif;
+      text-align: center;
+      width: 100%;
+      margin-top: 25px;
+      padding: 14px 0px;
+      cursor: pointer;
+}
+.cartCont{
+      position: relative;
+}
+
+.numberWrap{
+      background-color: black;
+      color: white;
+      font-size:13px;
+      line-height: 21px;
+      font-weight: 700;
+      font-family: 'Archivo', sans-serif;
+      padding: 1px 8px;
+      position: absolute;
+      bottom:-10px;
+      right: -15px;
+}
+
+@media screen and (max-width: 760px) {
+      .headWrap{
+      padding: 15px 10px;
+      border-bottom: 4px solid #E4E4E4;
+      }
+      .cart{
+            width: 32px;
+      }
+      .logo{
+            width: 124px;
+      }
+      .dropDownContainer{
+      border: 4px solid #E4E4E4;
+      padding: 10px;
+}
+
+.dropName{
+      font-size: 10px;
+      line-height: 12px;
+}
+.dropAmount{
+      font-size: 17px;
+      line-height: 21px;
+}
+.dropImage{
+      height: 66px;
+      width: 129px;
+      margin-left: 11px;
+}
+.clearBtn{
+      color: black;
+      font-size: 13px;
+      margin-top: 20px;
+      padding: 7px 0px;
+}
+
+.dropDownItem{
+     padding-bottom: 14px;
+     border-bottom: 1px solid #C2C2C2;
+}
+
+.numberWrap{
+      right: 10px;
+}
+
+}
+

@@ -1,0 +1,181 @@
+.heroHeading{
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 34px;
+      font-family: 'Archivo', sans-serif;
+}
+.heroHeadWrap{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 100px;
+}
+.addToCartBtn{
+      height: 47px;
+      padding: 0 39px;
+      background-color: black;
+      color: white;
+      font-family: 'Archivo', sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 25px;
+      border:none;
+      font-style: normal;
+      text-transform: uppercase;
+      cursor: pointer;
+}
+.heroImageContainer{
+      height: 70vh;
+      width: 100%;
+      position: relative;
+      margin-top: 40px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.photoDayWrap{
+      height: 67px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background:white;
+      padding: 0 30px;
+      position: absolute;
+      left:0;
+      bottom: 0;
+}
+
+.photoDayWrap p{
+      font-weight: 700;
+      font-size: 20px;
+      font-family: 'Archivo', sans-serif;
+      color: black;
+      text-align: center;
+}
+.mobileCartBtn{
+            display: none;
+ }
+
+ .detailsWrap h3{
+      font-size: 22px;
+      font-family: 'Archivo', sans-serif;
+      font-weight: 700;
+      line-height: 23.94px;
+      text-align: right;
+      margin-top: 50px;
+ }
+ .detailsWrap p{
+      font-size: 16px;
+      font-family: 'Archivo', sans-serif;
+      font-weight: 300;
+      line-height: 23.94px;
+      text-align: right;
+      color: #656565;
+ }
+
+/* hero content style */
+
+.heroContent{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 26px;
+      padding-bottom: 50px;
+      border-bottom: 3px solid #E4E4E4;
+}
+
+.leftProductHead{
+      font-size: 22px;
+      font-family: 'Archivo', sans-serif;
+      font-weight: 700;
+      line-height: 23.94px;
+}
+.rightProductHead{
+      font-size: 22px;
+      font-family: 'Archivo', sans-serif;
+      font-weight: 700;
+      line-height: 23.94px;
+      text-align: right;
+}
+.imgContainer{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.leftSubHeading{
+  color: #656565;
+  font-size: 22px;
+  line-height: 23.94px;
+  font-family: 'Archivo', sans-serif;
+}
+
+.paragrahContainer p{
+      color: #656565;
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: 300;
+      font-family: 'Archivo', sans-serif;
+}
+.paragrahContainer p:nth-child(2){
+      margin-top: 15px;
+}
+
+/* hero content style */
+
+@media screen and (max-width: 760px) {
+      .heroHeading{
+            font-size: 20px;
+      }
+      .heroContent{
+            padding-bottom: 30px;
+      }
+      .heroHeadWrap{
+            margin-top: 75px;
+      }
+      .heroHeadWrap .addToCartBtn{
+            display: none;
+      }
+      .heroImageContainer{
+      height: 40vh;
+      margin-top: 10px;
+      object-fit: contain;
+      }
+      .photoDayWrap p{
+      font-size: 15px;
+      }
+
+      .photoDayWrap{
+      height: auto;
+      padding: 4px 41px;
+      
+      }
+      .mobileCartBtn{
+            display: block;
+      }
+      .mobileCartBtn .addToCartBtn{
+            width: 100%;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 300;
+      }
+      .buyImg{
+            width: 97.57px;
+      }
+
+      .paragrahContainer p{
+            font-size: 14px;
+      }
+      .paragrahContainer p:nth-child(2){
+            margin-top: 10px;
+      }
+      .detailsWrap h3, .detailsWrap p{
+            text-align: left;
+      }
+
+      .rightProductHead{
+            text-align: left;
+      }
+}

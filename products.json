@@ -1,0 +1,159 @@
+{ "products": [
+  {
+    "name": "Sneakers",
+    "category": "people",
+    "price": 3.89,
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/1019771/pexels-photo-1019771.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "alt": ""
+    },
+    "bestseller": true,
+    "featured": false,
+    "details": null
+  },
+  {
+    "name": "Canon",
+    "category": "people",
+    "price": 39.89,
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/610293/pexels-photo-610293.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "alt": ""
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": null
+  },
+  {
+    "name": "Vegetables",
+    "category": "food",
+    "price": 19.89,
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/1034940/pexels-photo-1034940.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "alt": ""
+    },
+    "bestseller": true,
+    "featured": false,
+    "details": null
+  },
+  {
+    "name": "Japan",
+    "category": "landmarks",
+    "price": 90.89,
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/310983/pexels-photo-310983.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "alt": ""
+    },
+    "bestseller": true,
+    "featured": false,
+    "details": null
+  },
+  {
+    "name": "noodles",
+    "category": "food",
+    "price": 40.89,
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "alt": ""
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": null
+  },
+  {
+    "name": "ROlls Royce",
+    "category": "premium",
+    "price": 1030.89,
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/4141998/pexels-photo-4141998.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "alt": ""
+    },
+    "bestseller": true,
+    "featured": false,
+    "details": null
+  },
+  {
+    "name": "Mercedes",
+    "category": "premium",
+    "price": 1240.89,
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/6453067/pexels-photo-6453067.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "alt": ""
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": null
+  },
+  {
+    "name": "Europe",
+    "category": "landmarks",
+    "price": 910.89,
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/1053460/pexels-photo-1053460.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "alt": ""
+    },
+    "bestseller": true,
+    "featured": true,
+    "details": null
+  },
+  {
+    "name": "Bright Shanghai",
+    "category": "cities",
+    "price": 1210.89,
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "alt": ""
+    },
+    "bestseller": false,
+    "featured": true,
+    "details": null
+  },
+  {
+    "name": "New York Living",
+    "category": "cities",
+    "price": 1410.89,
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/802024/pexels-photo-802024.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "alt": ""
+    },
+    "bestseller": false,
+    "featured": true,
+    "details": null
+  },
+  {
+    "name": "Brazillian Green",
+    "category": "nature",
+    "price": 410.89,
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "alt": ""
+    },
+    "bestseller": false,
+    "featured": true,
+    "details": null
+  },
+  {
+    "name": "Icy Snow",
+    "category": "nature",
+    "price":510.89,
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "alt": ""
+    },
+    "bestseller": true,
+    "featured": true,
+    "details": null
+  }
+]
+}

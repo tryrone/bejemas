@@ -1,0 +1,69 @@
+.productCard{
+      height: 390.67px;
+      width: 20vw;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+}
+.productAddToCartBtn{
+      font-size: 20px;
+      font-family: 'Archivo', sans-serif;
+      font-weight: 300;
+      line-height: 23.94px;
+      text-align: center;
+      color: white;
+      background:black;
+      width: 100%;
+      padding: 13px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      border: none;
+}
+
+.product{
+      margin-bottom: 50px;
+}
+
+.pOne{
+      color:#656565;
+      font-size: 19px;
+      font-family: 'Archivo', sans-serif;
+      font-weight: 700;
+      text-align: left;
+      margin-top: 8px;
+      line-height: 24px;
+}
+.pTwo{
+      color:black;
+      font-size: 30px;
+      font-weight: 700;
+      font-family: 'Archivo', sans-serif;
+      text-align: left;
+      line-height: 37px;
+}
+.pThree{
+      color:#656565;
+      font-size: 26px;
+      font-weight: 300;
+      font-family: 'Archivo', sans-serif;
+      text-align: left;
+      line-height: 32px;
+}
+
+.bestSeller{
+      padding: 10px 16px;
+      background-color: white;
+      position: absolute;
+      top:0;
+      left:0;
+}
+
+@media screen and (max-width:760px) {
+      .productCard{
+      height: 290.67px;
+      width: 95vw
+}
+}
